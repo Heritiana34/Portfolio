@@ -1,0 +1,576 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portfolio de Heritiana Ramisiarison - Développeur Frontend">
+    <title>Heritiana Ramisiarison | Développeur Frontend</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="icons.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="logo">HR.</div>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="#accueil" class="nav-link active" data-section="accueil">Accueil</a></li>
+                <li><a href="#apropos" class="nav-link" data-section="apropos">À propos</a></li>
+                <li><a href="#competences" class="nav-link" data-section="competences">Compétences</a></li>
+                <li><a href="#projets" class="nav-link" data-section="projets">Projets</a></li>
+                <li><a href="#contact" class="nav-link" data-section="contact">Contact</a></li>
+            </ul>
+            <div class="theme-toggle" id="themeToggle" title="Basculer le mode sombre">
+                <svg class="theme-svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                </svg>
+            </div>
+            <div class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Section Accueil -->
+    <section id="accueil" class="hero">
+        <div class="hero-content">
+            <h1 class="fade-in">Bienvenue 👋</h1>
+            <h2 class="hero-name fade-in">Heritiana Ramisiarison</h2>
+            <p class="subtitle fade-in">Développeur Frontend Passionné</p>
+            <a href="#contact" class="btn btn-primary fade-in">Parlons ensemble</a>
+        </div>
+        <div class="hero-bg"></div>
+    </section>
+
+    <!-- Section À propos -->
+    <section id="apropos" class="about">
+        <div class="container">
+            <h2 class="section-title">À propos de moi</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <h3>Qui suis-je ?</h3>
+                    <p>Je suis Heritiana Ramisiarison, actuellement en Licence 1 (L1). Je suis passionné par le développement web frontend et j'adore créer des interfaces web modernes, intuitives et performantes.</p>
+                    <p>Avec une solide expertise en HTML, CSS, JavaScript, React et Bootstrap, je transforme des idées en solutions web attrayantes et fonctionnelles. Mon objectif est de créer des expériences utilisateur exceptionnelles tout en respectant les meilleures pratiques du développement web.</p>
+                    <p>Je suis curieux, motivé et toujours en quête d'apprentissage de nouvelles technologies et tendances du web. N'hésitez pas à me contacter pour discuter de vos projets !</p>
+                </div>
+                <div class="about-stats">
+                    <div class="stat">
+                        <h4>100+</h4>
+                        <p>Projets complétés</p>
+                    </div>
+                    <div class="stat">
+                        <h4>50+</h4>
+                        <p>Clients satisfaits</p>
+                    </div>
+                    <div class="stat">
+                        <h4>5</h4>
+                        <p>Compétences maîtrisées</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section Compétences -->
+    <section id="competences" class="skills">
+        <div class="container">
+            <h2 class="section-title">Mes Compétences</h2>
+            <div class="skills-grid">
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <polyline points="16 18 22 12 16 6"></polyline>
+                            <polyline points="8 6 2 12 8 18"></polyline>
+                        </svg>
+                    </div>
+                    <h3>HTML5</h3>
+                    <p>Structure sémantique et accessible des pages web</p>
+                    <div class="progress-bar">
+                        <div class="progress" style="width: 95%"></div>
+                    </div>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <circle cx="12" cy="12" r="1"></circle>
+                            <path d="M12 17.5v4.5M12 2v4.5M4.22 4.22l3.18 3.18M16.6 16.6l3.18 3.18M2 12h4.5M17.5 12H22M4.22 19.78l3.18-3.18M16.6 7.4l3.18-3.18"></path>
+                        </svg>
+                    </div>
+                    <h3>CSS3</h3>
+                    <p>Mise en page responsive et animations fluides</p>
+                    <div class="progress-bar">
+                        <div class="progress" style="width: 92%"></div>
+                    </div>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <polyline points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"></polyline>
+                        </svg>
+                    </div>
+                    <h3>JavaScript</h3>
+                    <p>Logique interactive et manipulation du DOM</p>
+                    <div class="progress-bar">
+                        <div class="progress" style="width: 90%"></div>
+                    </div>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <circle cx="12" cy="12" r="10"></circle>
+                            <path d="M12 6v6l4 2"></path>
+                        </svg>
+                    </div>
+                    <h3>React</h3>
+                    <p>Composants réutilisables et state management</p>
+                    <div class="progress-bar">
+                        <div class="progress" style="width: 85%"></div>
+                    </div>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <rect x="3" y="3" width="7" height="7"></rect>
+                            <rect x="14" y="3" width="7" height="7"></rect>
+                            <rect x="14" y="14" width="7" height="7"></rect>
+                            <rect x="3" y="14" width="7" height="7"></rect>
+                        </svg>
+                    </div>
+                    <h3>Bootstrap</h3>
+                    <p>Framework CSS pour designs rapides et responsifs</p>
+                    <div class="progress-bar">
+                        <div class="progress" style="width: 88%"></div>
+                    </div>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <rect x="5" y="2" width="14" height="20" rx="2" ry="2"></rect>
+                            <line x1="12" y1="18" x2="12.01" y2="18"></line>
+                        </svg>
+                    </div>
+                    <h3>Responsive Design</h3>
+                    <p>Optimisation pour tous les appareils</p>
+                    <div class="progress-bar">
+                        <div class="progress" style="width: 93%"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section Projets -->
+    <section id="projets" class="projects">
+        <div class="container">
+            <h2 class="section-title">Mes Projets</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-image">
+                        <svg viewBox="0 0 400 300" xmlns="http://www.w3.org/2000/svg">
+                            <defs>
+                                <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="100%">
+                                    <stop offset="0%" style="stop-color:#667eea;stop-opacity:1" />
+                                    <stop offset="100%" style="stop-color:#764ba2;stop-opacity:1" />
+                                </linearGradient>
+                            </defs>
+                            <rect width="400" height="300" fill="url(#grad1)"/>
+                            <!-- Header -->
+                            <rect x="0" y="0" width="400" height="40" fill="#333" opacity="0.3"/>
+                            <circle cx="20" cy="20" r="6" fill="#fff" opacity="0.6"/>
+                            <rect x="35" y="16" width="100" height="8" fill="#fff" opacity="0.6" rx="2"/>
+                            <!-- Product Display -->
+                            <rect x="40" y="70" width="150" height="150" fill="#fff" opacity="0.9" rx="5"/>
+                            <circle cx="115" cy="120" r="35" fill="#667eea" opacity="0.3"/>
+                            <!-- Shopping Info -->
+                            <rect x="210" y="70" width="150" height="70" fill="#fff" opacity="0.85" rx="5"/>
+                            <rect x="220" y="80" width="130" height="8" fill="#667eea" opacity="0.5" rx="2"/>
+                            <rect x="220" y="95" width="90" height="6" fill="#667eea" opacity="0.3" rx="2"/>
+                            <!-- Cart Icon -->
+                            <rect x="210" y="155" width="150" height="35" fill="#667eea" opacity="0.2" rx="5"/>
+                            <rect x="230" y="162" width="15" height="20" fill="#667eea" opacity="0.7" rx="2"/>
+                            <circle cx="265" cy="172" r="4" fill="#667eea" opacity="0.7"/>
+                            <circle cx="295" cy="172" r="4" fill="#667eea" opacity="0.7"/>
+                        </svg>
+                    </div>
+                    <div class="project-content">
+                        <div class="project-header">
+                            <h3>Site E-Commerce</h3>
+                            <span class="project-badge">Terminé</span>
+                        </div>
+                        <p>Plateforme de vente en ligne avec panier fonctionnel et système de paiement intégré.</p>
+                        <div class="project-tags">
+                            <span class="tag">React</span>
+                            <span class="tag">Bootstrap</span>
+                            <span class="tag">JavaScript</span>
+                        </div>
+                        <a href="#" class="btn btn-secondary">
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                                <polyline points="15 3 21 3 21 9"></polyline>
+                                <line x1="10" y1="14" x2="21" y2="3"></line>
+                            </svg>
+                            Voir le projet
+                        </a>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <svg viewBox="0 0 400 300" xmlns="http://www.w3.org/2000/svg">
+                            <defs>
+                                <linearGradient id="grad2" x1="0%" y1="0%" x2="100%" y2="100%">
+                                    <stop offset="0%" style="stop-color:#f093fb;stop-opacity:1" />
+                                    <stop offset="100%" style="stop-color:#f5576c;stop-opacity:1" />
+                                </linearGradient>
+                            </defs>
+                            <rect width="400" height="300" fill="url(#grad2)"/>
+                            <!-- Portfolio Grid -->
+                            <rect x="40" y="50" width="75" height="75" fill="#fff" opacity="0.85" rx="5"/>
+                            <rect x="130" y="50" width="75" height="75" fill="#fff" opacity="0.85" rx="5"/>
+                            <rect x="220" y="50" width="75" height="75" fill="#fff" opacity="0.85" rx="5"/>
+                            <rect x="310" y="50" width="50" height="75" fill="#fff" opacity="0.6" rx="5"/>
+                            <!-- Project Items -->
+                            <circle cx="77.5" cy="87.5" r="25" fill="#f093fb" opacity="0.3"/>
+                            <rect x="135" y="58" width="65" height="60" fill="#f5576c" opacity="0.2" rx="3"/>
+                            <!-- Nav Bar -->
+                            <rect x="0" y="0" width="400" height="35" fill="#333" opacity="0.4"/>
+                            <rect x="20" y="10" width="80" height="15" fill="#fff" opacity="0.7" rx="2"/>
+                            <!-- About Section -->
+                            <rect x="40" y="150" width="320" height="100" fill="#fff" opacity="0.8" rx="5"/>
+                            <rect x="50" y="160" width="200" height="10" fill="#f093fb" opacity="0.5" rx="2"/>
+                            <rect x="50" y="180" width="280" height="6" fill="#f093fb" opacity="0.3" rx="2"/>
+                            <rect x="50" y="195" width="280" height="6" fill="#f093fb" opacity="0.3" rx="2"/>
+                        </svg>
+                    </div>
+                    <div class="project-content">
+                        <div class="project-header">
+                            <h3>Portfolio Personnel</h3>
+                            <span class="project-badge">En cours</span>
+                        </div>
+                        <p>Site de présentation personnel avec animations fluides et design moderne.</p>
+                        <div class="project-tags">
+                            <span class="tag">HTML</span>
+                            <span class="tag">CSS</span>
+                            <span class="tag">JavaScript</span>
+                        </div>
+                        <a href="#" class="btn btn-secondary">
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                                <polyline points="15 3 21 3 21 9"></polyline>
+                                <line x1="10" y1="14" x2="21" y2="3"></line>
+                            </svg>
+                            Voir le projet
+                        </a>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <svg viewBox="0 0 400 300" xmlns="http://www.w3.org/2000/svg">
+                            <defs>
+                                <linearGradient id="grad3" x1="0%" y1="0%" x2="100%" y2="100%">
+                                    <stop offset="0%" style="stop-color:#4facfe;stop-opacity:1" />
+                                    <stop offset="100%" style="stop-color:#00f2fe;stop-opacity:1" />
+                                </linearGradient>
+                            </defs>
+                            <rect width="400" height="300" fill="url(#grad3)"/>
+                            <!-- Header -->
+                            <rect x="0" y="0" width="400" height="45" fill="#fff" opacity="0.3"/>
+                            <!-- Blog Cards Grid -->
+                            <rect x="30" y="60" width="160" height="100" fill="#fff" opacity="0.9" rx="5"/>
+                            <rect x="40" y="70" width="140" height="50" fill="#4facfe" opacity="0.2" rx="3"/>
+                            <rect x="40" y="125" width="100" height="6" fill="#4facfe" opacity="0.5" rx="2"/>
+                            <!-- Second Card -->
+                            <rect x="210" y="60" width="160" height="100" fill="#fff" opacity="0.9" rx="5"/>
+                            <rect x="220" y="70" width="140" height="50" fill="#00f2fe" opacity="0.2" rx="3"/>
+                            <rect x="220" y="125" width="120" height="6" fill="#00f2fe" opacity="0.5" rx="2"/>
+                            <!-- Comment Section -->
+                            <rect x="30" y="180" width="340" height="80" fill="#fff" opacity="0.8" rx="5"/>
+                            <circle cx="50" cy="200" r="12" fill="#4facfe" opacity="0.5"/>
+                            <rect x="70" y="195" width="100" height="6" fill="#4facfe" opacity="0.4" rx="2"/>
+                            <rect x="70" y="207" width="150" height="4" fill="#4facfe" opacity="0.3" rx="2"/>
+                        </svg>
+                    </div>
+                    <div class="project-content">
+                        <div class="project-header">
+                            <h3>Plateforme de Blog</h3>
+                            <span class="project-badge">Terminé</span>
+                        </div>
+                        <p>Application blog avec système de commentaires et gestion des articles.</p>
+                        <div class="project-tags">
+                            <span class="tag">React</span>
+                            <span class="tag">CSS</span>
+                            <span class="tag">API</span>
+                        </div>
+                        <a href="#" class="btn btn-secondary">
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                                <polyline points="15 3 21 3 21 9"></polyline>
+                                <line x1="10" y1="14" x2="21" y2="3"></line>
+                            </svg>
+                            Voir le projet
+                        </a>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <svg viewBox="0 0 400 300" xmlns="http://www.w3.org/2000/svg">
+                            <defs>
+                                <linearGradient id="grad4" x1="0%" y1="0%" x2="100%" y2="100%">
+                                    <stop offset="0%" style="stop-color:#fa709a;stop-opacity:1" />
+                                    <stop offset="100%" style="stop-color:#fee140;stop-opacity:1" />
+                                </linearGradient>
+                            </defs>
+                            <rect width="400" height="300" fill="url(#grad4)"/>
+                            <!-- Header -->
+                            <rect x="0" y="0" width="400" height="40" fill="#fff" opacity="0.3"/>
+                            <!-- Task List -->
+                            <rect x="40" y="60" width="320" height="40" fill="#fff" opacity="0.9" rx="5"/>
+                            <circle cx="60" cy="82" r="6" fill="#fa709a" opacity="0.5"/>
+                            <rect x="80" y="76" width="150" height="8" fill="#fa709a" opacity="0.5" rx="2"/>
+                            <!-- Second Task -->
+                            <rect x="40" y="115" width="320" height="40" fill="#fff" opacity="0.9" rx="5"/>
+                            <rect x="60" y="135" width="10" height="10" fill="#fee140" opacity="0.7" rx="2"/>
+                            <rect x="80" y="131" width="150" height="8" fill="#fee140" opacity="0.5" rx="2"/>
+                            <!-- Third Task -->
+                            <rect x="40" y="170" width="320" height="40" fill="#fff" opacity="0.85" rx="5"/>
+                            <line x1="60" y1="185" x2="100" y2="195" stroke="#fa709a" stroke-width="3" opacity="0.6"/>
+                            <rect x="80" y="181" width="150" height="8" fill="#fa709a" opacity="0.4" rx="2"/>
+                        </svg>
+                    </div>
+                    <div class="project-content">
+                        <div class="project-header">
+                            <h3>Application Todo</h3>
+                            <span class="project-badge">Terminé</span>
+                        </div>
+                        <p>Gestionnaire de tâches avec sauvegarde locale et interface intuitive.</p>
+                        <div class="project-tags">
+                            <span class="tag">JavaScript</span>
+                            <span class="tag">CSS</span>
+                            <span class="tag">LocalStorage</span>
+                        </div>
+                        <a href="#" class="btn btn-secondary">
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                                <polyline points="15 3 21 3 21 9"></polyline>
+                                <line x1="10" y1="14" x2="21" y2="3"></line>
+                            </svg>
+                            Voir le projet
+                        </a>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <svg viewBox="0 0 400 300" xmlns="http://www.w3.org/2000/svg">
+                            <defs>
+                                <linearGradient id="grad5" x1="0%" y1="0%" x2="100%" y2="100%">
+                                    <stop offset="0%" style="stop-color:#30cfd0;stop-opacity:1" />
+                                    <stop offset="100%" style="stop-color:#330867;stop-opacity:1" />
+                                </linearGradient>
+                            </defs>
+                            <rect width="400" height="300" fill="url(#grad5)"/>
+                            <!-- Header -->
+                            <rect x="0" y="0" width="400" height="45" fill="#fff" opacity="0.3"/>
+                            <!-- Charts -->
+                            <rect x="30" y="70" width="80" height="100" fill="#fff" opacity="0.85" rx="3"/>
+                            <rect x="35" y="130" width="70" height="35" fill="#30cfd0" opacity="0.4" rx="2"/>
+                            <!-- Second Chart -->
+                            <rect x="125" y="70" width="80" height="100" fill="#fff" opacity="0.85" rx="3"/>
+                            <rect x="130" y="110" width="70" height="55" fill="#30cfd0" opacity="0.5" rx="2"/>
+                            <!-- Third Chart -->
+                            <rect x="220" y="70" width="80" height="100" fill="#fff" opacity="0.85" rx="3"/>
+                            <rect x="225" y="90" width="70" height="75" fill="#30cfd0" opacity="0.6" rx="2"/>
+                            <!-- Fourth Chart -->
+                            <rect x="315" y="70" width="55" height="100" fill="#fff" opacity="0.85" rx="3"/>
+                            <rect x="320" y="105" width="45" height="60" fill="#30cfd0" opacity="0.55" rx="2"/>
+                            <!-- Stats Section -->
+                            <rect x="30" y="185" width="340" height="80" fill="#fff" opacity="0.8" rx="5"/>
+                            <rect x="45" y="200" width="100" height="8" fill="#30cfd0" opacity="0.6" rx="2"/>
+                            <rect x="45" y="218" width="50" height="6" fill="#30cfd0" opacity="0.4" rx="2"/>
+                        </svg>
+                    </div>
+                    <div class="project-content">
+                        <div class="project-header">
+                            <h3>Tableau de Bord</h3>
+                            <span class="project-badge">En cours</span>
+                        </div>
+                        <p>Dashboard administratif avec graphiques et statistiques en temps réel.</p>
+                        <div class="project-tags">
+                            <span class="tag">React</span>
+                            <span class="tag">Charts</span>
+                            <span class="tag">Bootstrap</span>
+                        </div>
+                        <a href="#" class="btn btn-secondary">
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                                <polyline points="15 3 21 3 21 9"></polyline>
+                                <line x1="10" y1="14" x2="21" y2="3"></line>
+                            </svg>
+                            Voir le projet
+                        </a>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <svg viewBox="0 0 400 300" xmlns="http://www.w3.org/2000/svg">
+                            <defs>
+                                <linearGradient id="grad6" x1="0%" y1="0%" x2="100%" y2="100%">
+                                    <stop offset="0%" style="stop-color:#a8edea;stop-opacity:1" />
+                                    <stop offset="100%" style="stop-color:#fed6e3;stop-opacity:1" />
+                                </linearGradient>
+                            </defs>
+                            <rect width="400" height="300" fill="url(#grad6)"/>
+                            <!-- Header CTA -->
+                            <rect x="30" y="35" width="340" height="50" fill="#667eea" opacity="0.8" rx="5"/>
+                            <rect x="50" y="50" width="150" height="12" fill="#fff" opacity="0.9" rx="2"/>
+                            <rect x="280" y="52" width="70" height="8" fill="#fff" opacity="0.7" rx="2"/>
+                            <!-- Feature Boxes -->
+                            <rect x="30" y="110" width="150" height="120" fill="#fff" opacity="0.9" rx="5"/>
+                            <circle cx="107" cy="145" r="15" fill="#667eea" opacity="0.3"/>
+                            <rect x="45" y="175" width="120" height="8" fill="#667eea" opacity="0.5" rx="2"/>
+                            <!-- Second Feature -->
+                            <rect x="210" y="110" width="150" height="120" fill="#fff" opacity="0.9" rx="5"/>
+                            <circle cx="287" cy="145" r="15" fill="#ec4899" opacity="0.3"/>
+                            <rect x="225" y="175" width="120" height="8" fill="#ec4899" opacity="0.5" rx="2"/>
+                            <!-- Bottom Text -->
+                            <rect x="30" y="245" width="340" height="35" fill="#fff" opacity="0.85" rx="3"/>
+                        </svg>
+                    </div>
+                    <div class="project-content">
+                        <div class="project-header">
+                            <h3>Landing Page</h3>
+                            <span class="project-badge">Terminé</span>
+                        </div>
+                        <p>Page d'atterrissage moderne pour campagne marketing avec formulaire.</p>
+                        <div class="project-tags">
+                            <span class="tag">HTML</span>
+                            <span class="tag">CSS</span>
+                            <span class="tag">Bootstrap</span>
+                        </div>
+                        <a href="#" class="btn btn-secondary">
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                                <polyline points="15 3 21 3 21 9"></polyline>
+                                <line x1="10" y1="14" x2="21" y2="3"></line>
+                            </svg>
+                            Voir le projet
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section Contact -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Contactez-moi</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3>Parlons de votre projet</h3>
+                    <p>Je serais ravi de discuter de votre prochain projet ou de collaborer ensemble.</p>
+                    <div class="contact-details">
+                        <div class="detail-item">
+                            <span class="detail-icon">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                    <rect x="2" y="4" width="20" height="16" rx="2"></rect>
+                                    <path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"></path>
+                                </svg>
+                            </span>
+                            <div>
+                                <p class="detail-label">Email</p>
+                                <p class="detail-value">heritiana@example.com</p>
+                            </div>
+                        </div>
+                        <div class="detail-item">
+                            <span class="detail-icon">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                    <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
+                                </svg>
+                            </span>
+                            <div>
+                                <p class="detail-label">Téléphone</p>
+                                <p class="detail-value">+261 XX XX XX</p>
+                            </div>
+                        </div>
+                        <div class="detail-item">
+                            <span class="detail-icon">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                    <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+                                    <circle cx="12" cy="10" r="3"></circle>
+                                </svg>
+                            </span>
+                            <div>
+                                <p class="detail-label">Localisation</p>
+                                <p class="detail-value">Madagascar</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="social-links">
+                        <a href="#" class="social-link" title="LinkedIn">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path>
+                                <rect x="2" y="9" width="4" height="12"></rect>
+                                <circle cx="4" cy="4" r="2"></circle>
+                            </svg>
+                            LinkedIn
+                        </a>
+                        <a href="#" class="social-link" title="GitHub">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
+                            </svg>
+                            GitHub
+                        </a>
+                        <a href="#" class="social-link" title="Twitter">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2s9 5 20 5a9.5 9.5 0 0 0-9-5.5c4.75 2.25 7-7 7-7"></path>
+                            </svg>
+                            Twitter
+                        </a>
+                    </div>
+                </div>
+                <form class="contact-form" id="contactForm">
+                    <div class="form-group">
+                        <label for="name">Nom</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="subject">Sujet</label>
+                        <input type="text" id="subject" name="subject" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="display: inline; margin-right: 0.5rem;">
+                            <line x1="22" y1="2" x2="11" y2="13"></line>
+                            <polygon points="22 2 15 22 11 13 2 9 22 2"></polygon>
+                        </svg>
+                        Envoyer
+                    </button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 Heritiana Ramisiarison. Tous droits réservés.</p>
+            <p>Développé avec ❤️ en HTML, CSS et JavaScript</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
